@@ -549,6 +549,7 @@ dictionaries: \
 	espeak-ng-data/si_dict \
 	espeak-ng-data/sk_dict \
 	espeak-ng-data/sl_dict \
+	espeak-ng-data/smei_dict \
 	espeak-ng-data/sq_dict \
 	espeak-ng-data/sr_dict \
 	espeak-ng-data/sv_dict \
@@ -831,6 +832,9 @@ espeak-ng-data/sk_dict: dictsource/sk_list dictsource/sk_rules dictsource/sk_ext
 
 sl: espeak-ng-data/sl_dict
 espeak-ng-data/sl_dict: dictsource/sl_list dictsource/sl_rules dictsource/sl_extra dictsource/sl_emoji
+
+smei: espeak-ng-data/smei_dict
+espeak-ng-data/smei_dict: dictsource/smei_list dictsource/smei_rules #dictsource/sl_extra dictsource/sl_emoji
 
 sq: espeak-ng-data/sq_dict
 espeak-ng-data/sq_dict: dictsource/sq_list dictsource/sq_rules dictsource/sq_extra dictsource/sq_emoji

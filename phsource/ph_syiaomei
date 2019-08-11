@@ -1,0 +1,210 @@
+phoneme 11   //  tone: low level
+  ipa 1
+  stress
+  Tone(12, 9, envelope/i_risefall, NULL)
+endphoneme
+
+phoneme 21   //  tone: low fall
+  stress
+  Tone(20, 10, envelope/p_fall, NULL)
+endphoneme
+
+phoneme 214   //  tone: fall rise
+  stress
+  Tone(18, 42, envelope/p_214, NULL)
+endphoneme
+
+phoneme 22   //  tone: mid-low level
+  stress
+  Tone(22, 20, envelope/p_fall, NULL)
+endphoneme
+
+phoneme 33   //  tone: mid level
+  ipa 3
+  stress
+  Tone(32, 30, envelope/p_fall, NULL)
+endphoneme
+
+phoneme 35   //  tone: mid rise
+  ipa 35
+  stress
+  Tone(30, 50, envelope/p_rise, NULL)
+endphoneme
+
+phoneme 44   //  tone: mid-high level
+  stress
+  Tone(38, 41, envelope/p_rise, NULL)
+endphoneme
+
+phoneme 51   //  tone: high fall
+  ipa 1
+  stress
+  Tone(50, 10, envelope/p_fall, NULL)
+endphoneme
+
+phoneme 53   //  tone: high fall
+  stress
+  Tone(50, 30, envelope/p_fall, NULL)
+endphoneme
+
+phoneme 55   //  tone: high level
+  ipa 5
+  stress
+  Tone(55, 50, envelope/p_level, NULL)
+endphoneme
+
+
+# Short vowels
+
+phoneme e
+  vwl starttype #e endtype #e
+  length 180
+  FMT(vowel/e_3)
+endphoneme
+
+phoneme a
+  vwl starttype #a endtype #a
+  length 180
+  FMT(vowel/a)
+endphoneme
+
+phoneme A
+  vwl starttype #o endtype #o
+  length 140
+  FMT(vowel/0_3)
+endphoneme
+
+phoneme E
+  vwl starttype #e endtype #e
+  length 140
+  FMT(vowel/e_mid)
+endphoneme
+
+phoneme i
+  vwl starttype #i endtype #i
+  length 140
+  IfNextVowelAppend(;)
+  FMT(vowel/i_4)
+endphoneme
+
+phoneme o
+  vwl starttype #o endtype #o
+  length 130
+  FMT(vowel/o_mid)
+endphoneme
+
+phoneme u
+  vwl starttype #u endtype #u
+  length 130
+  FMT(vowel/uu_bck)
+endphoneme
+
+phoneme @   //  Schwa
+  vwl starttype #@ endtype #@
+  unstressed
+  length 40
+  FMT(vowel/@_4)
+endphoneme
+
+phoneme I
+  vwl starttype #i endtype #i
+  unstressed
+  length 40
+  FMT(vowel/ii)
+endphoneme
+
+phoneme U
+  vwl starttype #u endtype #u
+  unstressed
+  length 40
+  FMT(vowel/uu_2)
+endphoneme
+
+phoneme y
+  vwl starttype #@ endtype #@
+  ipa ɯ
+  length 180
+  FMT(vowel/u#_7)
+endphoneme
+
+
+phoneme e:
+  vwl starttype #e endtype #e
+  length 280
+  FMT(vowel/e_3)
+endphoneme
+
+phoneme a:
+  vwl starttype #a endtype #a
+  length 380
+  FMT(vowel/a)
+endphoneme
+
+phoneme A:
+  vwl starttype #o endtype #o
+  length 280
+  FMT(vowel/0_3)
+endphoneme
+
+phoneme E:
+  vwl starttype #e endtype #e
+  length 280
+  FMT(vowel/e_mid)
+endphoneme
+
+phoneme i:
+  vwl starttype #i endtype #i
+  length 280
+  FMT(vowel/i_4)
+endphoneme
+
+phoneme o:
+  vwl starttype #o endtype #o
+  length 280
+  FMT(vowel/o_mid)
+endphoneme
+
+phoneme u:
+  vwl starttype #u endtype #u
+  length 280
+  FMT(vowel/uu_bck)
+endphoneme
+
+phoneme y:
+  vwl starttype #@ endtype #@
+  ipa ɯ
+  length 280
+  FMT(vowel/u#_7)
+endphoneme
+
+phoneme ei
+  import_phoneme en-us/eI
+endphoneme
+
+phoneme iao
+  import_phoneme zh/iAu
+endphoneme
+
+phoneme ie
+  import_phoneme zh/iE
+endphoneme
+
+phoneme io
+  import_phoneme zh/io
+endphoneme
+
+phoneme uei
+  import_phoneme zh/uei
+endphoneme
+
+phoneme ua
+  import_phoneme zh/uA
+endphoneme
+
+phoneme uo
+  import_phoneme zh/uo
+endphoneme
+
+phoneme D # dh
+  import_phoneme en-us/D
+endphoneme
