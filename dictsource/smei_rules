@@ -121,17 +121,46 @@
 .group sy
  	sy C
 
-
+.group zy
+	zy J^
 
 .group m
 	m m
-	_) mm m-:
+	_) mm (C m-
 
 .group n
 	n n
-	_) nn n-:
+	_) nn (C n-
+	nn	n:
 
 .group r
 	r r"
-	_) rr r"-:
+	_) rr (C r"-
+	_) rr r":
 
+.group l
+	l l#
+
+.group w
+	w w
+
+.group y
+	y j
+
+.group f
+	f P
+
+.group th
+	th T
+
+.group dh
+	dh	D
+
+.group qh
+	qh X
+
+.group gh
+	gh Q
+
+.group h
+	h h

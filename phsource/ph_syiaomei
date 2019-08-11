@@ -53,8 +53,7 @@ phoneme 55   //  tone: high level
   Tone(55, 50, envelope/p_level, NULL)
 endphoneme
 
-
-# Short vowels
+// Short vowels
 
 phoneme e
   vwl starttype #e endtype #e
@@ -130,7 +129,7 @@ endphoneme
 
 phoneme e:
   vwl starttype #e endtype #e
-  length 280
+  length 380
   FMT(vowel/e_3)
 endphoneme
 
@@ -142,38 +141,38 @@ endphoneme
 
 phoneme A:
   vwl starttype #o endtype #o
-  length 280
+  length 380
   FMT(vowel/0_3)
 endphoneme
 
 phoneme E:
   vwl starttype #e endtype #e
-  length 280
+  length 380
   FMT(vowel/e_mid)
 endphoneme
 
 phoneme i:
   vwl starttype #i endtype #i
-  length 280
+  length 380
   FMT(vowel/i_4)
 endphoneme
 
 phoneme o:
   vwl starttype #o endtype #o
-  length 280
+  length 380
   FMT(vowel/o_mid)
 endphoneme
 
 phoneme u:
   vwl starttype #u endtype #u
-  length 280
+  length 380
   FMT(vowel/uu_bck)
 endphoneme
 
 phoneme y:
   vwl starttype #@ endtype #@
   ipa ɯ
-  length 280
+  length 380
   FMT(vowel/u#_7)
 endphoneme
 
@@ -205,6 +204,66 @@ phoneme uo
   import_phoneme zh/uo
 endphoneme
 
-phoneme D # dh
+
+phoneme m-
+  vwl starttype #@ endtype #@
+  ipa mU+0329
+  lengthmod 4
+  length 170
+
+  IF thisPh(isWordStart) THEN
+    length 280
+  ENDIF
+  IF KlattSynth THEN
+    FMT(klatt/m-syl)
+  ENDIF
+  FMT(m/m-syl)
+endphoneme
+
+phoneme n-
+  vwl starttype #@ endtype #@
+  ipa nU+0329
+  lengthmod 4
+  length 170
+
+  IF thisPh(isWordStart) THEN
+    length 190
+  ENDIF
+  IF KlattSynth THEN
+    FMT(klatt/n-syl)
+  ENDIF
+  FMT(n/n-syl)
+endphoneme
+
+phoneme N-
+  vwl starttype #e endtype #e
+  ipa ŋU+0329
+  lengthmod 4
+  length 170
+
+  IF thisPh(isWordStart) THEN
+    length 280
+  ENDIF
+
+  FMT(nn/nn-syl)
+endphoneme
+
+phoneme r"-
+  vwl starttype #@ endtype #@
+  ipa ʀU+0329
+  lengthmod 4
+  length 170
+
+  IF thisPh(isWordStart) THEN
+    length 280
+  ENDIF
+  FMT(r3/r_uvl) // addWav(r3/r_uvl.wav, 75)
+endphoneme
+
+phoneme D // dh
   import_phoneme en-us/D
+endphoneme
+
+phoneme P // f
+  import_phoneme ja/p\\
 endphoneme
