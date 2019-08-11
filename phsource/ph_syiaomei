@@ -146,7 +146,6 @@ endphoneme
 
 phoneme y:
   vwl starttype #@ endtype #@
-  ipa ɯ
   length 380
   FMT(vowel/u#_7)
 endphoneme
