@@ -1,0 +1,10 @@
+name Syiao Mei
+language smei
+dictionary smei
+
+pitch 150 118
+intonation 3
+stressRule 3 0 0 0
+stressLength 200 0 300 200 0 0 450 500 
+
+status testing

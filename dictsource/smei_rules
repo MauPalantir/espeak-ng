@@ -31,10 +31,16 @@
 
 .group a
 	a a33
+	@) a (@ @
+	ai ai33
+	ao ao33
 .group ā
 	ā a:33
+	āi ai:33
 .group á
 	á a55
+	ái ai35
+	áo Au35
 .group â
 	â a:35
 .group ǎ
@@ -44,6 +50,8 @@
 
 .group e
 	e e33
+	@) e (@ @
+
 .group ē
 	ē e:33
 .group é
@@ -54,12 +62,14 @@
 	ě E:51
 .group è
 	è E11
+	èo eo51
 
 .group i
 	i i33
 	iao	iao33
 	iào	iao51
 	iáo iao35
+	i (A ;
 
 .group ī
 	ī i:33
@@ -132,6 +142,12 @@
 	n n
 	_) nn (C n-
 	nn	n:
+
+.group ng
+	ng N
+
+.group ny
+	ny n^
 
 .group r
 	r r"
