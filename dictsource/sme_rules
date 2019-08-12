@@ -1,40 +1,41 @@
 // Syiao Méi translation rules
 // This file is UTF-8 encoded
 
+// Othrographic variants
 .replace
-//replace tone mark with tone number
-//ˉ 1
-//ˊ 2
-//ˇ 3
-//ˋ 4
+ă ǎ
+u̇ ü
+nng ngng
+u˙  ü
+ā̀ ǎ
+ā́ â
+ḕ ě
+ḗ ê
+ī́ î
+ī̀ ǐ
+ṓ ô
+ṑ ǒ
+ū́ û
+ū̀ ǔ
+ȳ́ ŷ
+ȳ̀ ÿ
+ÿ ẏ
+y̌ ÿ
+yˇ ÿ
+y<030c> ÿ
+t th
+d dh
+q qh
+k qh
+ch qh 
+ph f
+p f
+v w
 
-	ă ǎ
-	u̇ ü
-	nng ngng
-	u˙  ü
-	ā̀ ǎ
-	ā́ â
-	ḕ ě
-	ḗ ê
-	ī́ î
-	ī̀ ǐ
-	ṓ ô
-	ṑ ǒ
-	ū́ û
-	ū̀ ǔ
-	ȳ́ ŷ
-	ȳ̀ ÿ
-	ÿ ẏ
-	y̌ ÿ
-	yˇ ÿ
-	y<030c> ÿ
-
-	awiy̌a
-
-	// Consonanats
-
+	
 // Approximants
 .L01 m n ny ng w r l
+.L02 kh qh gh
 
 //ɑ a
 //ɡ g 
@@ -53,40 +54,50 @@
 
 .group a
 	a a3
-	a (_ @
+	@) a (_ @
 	@) a (C@ @
+	@) a (CC@ a3
+	ae a3@
 	ai ai3
 	ao ao3
 	aá 'a:15
 	au Au3
 .group ā
 	ā a:3
+	āe a:3@		
 	āi ai:3
 	āu Au:3
 	āo au:3
 .group á
 	á a5
+	áe a5@
 	ái ai5
 	áo ao5
 	áu Au5
 .group â
 	â a:5
-	âi ai:5
-	âo ao:5
-	âu Au:5
+	âe a:15@
+	âi ai:15
+	âo ao:15
+	âu Au:15
 .group ǎ
 	ǎ A:1
-	ǎo ao:1
-	ǎu Au:1
+	ǎe a:51@
+	ǎi ai:51
+	ǎo ao:51
+	ǎu Au:51
 .group à
 	à a1
+	àe a1@
+	ài ai1
 	ào ao1
 	àu Au1
 
 .group e
 	e E3
 	@) e (C@ @
-	e (_ @
+	@) e (CC@ E3
+	@) e (_ @
 	ei ei3
 .group ē
 	ē e:3
@@ -132,21 +143,28 @@
 .group o
 	o o3
 	@) o (_ O
-	oí o:15j
+	oí oi:15
 	oì O:51j
+	ou ou3
 .group ō
 	ō o:3
+	ōu ou:3
 .group ó
 	ó o5
+	ói oi5
+	óu ou:5
 .group ô
 	ô o:5
-	ôi o:15j
+	ôi oi:15
+	ôu ou:15
 .group ǒ
 	ǒ O:1
 	ǒi O:51j
+	ǒu ou:51
 .group ò
 	ò O1
 	òi O:51j
+	òu ou51
 
 .group u
 	u u3
@@ -171,6 +189,7 @@
 
 .group ẏ
 	ẏ y3
+	ẏ (_ =y
 .group ȳ
 	ȳ y:3
 .group ý
@@ -191,6 +210,12 @@
 
 .group sy
  	sy C
+
+.group s
+	s C
+
+.group sh
+	sh C
 
 .group zy
 	zy J^
@@ -219,9 +244,12 @@
 	_) rr (C r"-
 	_) rr r":
 	_) ry r:j:
+	L02JA) r r
 
 .group l
 	l l#
+	l (C l
+	ly l;
 
 .group w
 	w w
@@ -229,6 +257,9 @@
 .group y
 	y j
 	C) y ;
+	C) y (C y
+	_) y (C y
+	C) y (_ =y
 
 .group f
 	f P
