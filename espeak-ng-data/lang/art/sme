@@ -2,9 +2,29 @@ name Syiao Mei
 language sme
 dictionary sme
 
-pitch 150 118
-intonation 3
 stressRule 3 0 0 0
-stressLength 200 0 300 200 0 0 450 450 
+stressLength 200 0 300 200 0 0 450 200 
+
+tunes   s_ml  c1  q1  e1
 
 status testing
+
+pitch  160 220
+
+formant 0 10 120 154
+
+formant 1 115 80 160 -20
+
+formant 2 130 75 150 -200
+
+formant 3 123 75 150
+
+formant 4 125 80 150
+
+formant 5 125 80 150
+
+formant 6 110 80 150
+
+formant 7 110 75 150
+
+formant 8 110 75 150

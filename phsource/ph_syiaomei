@@ -1,31 +1,31 @@
-phoneme 11   //  tone: low level
+phoneme 1   //  tone: low level
   ipa ˨
   stress
-  Tone(12, 9, envelope/i_risefall, NULL)
+  Tone(1, 1, envelope/p_level, NULL)
 endphoneme
 
-phoneme 33   //  tone: mid level
+phoneme 3   //  tone: mid level
   ipa ˧
   stress
-  Tone(32, 30, envelope/p_fall, NULL)
+  Tone(30, 30, envelope/p_fall, NULL)
 endphoneme
 
-phoneme 35   //  tone: mid rise
+phoneme 15   //  tone: low rise
   ipa ˧˦
   stress
-  Tone(30, 50, envelope/p_rise, NULL)
+  Tone(10, 60, envelope/p_rise, NULL)
 endphoneme
 
 phoneme 51   //  tone: high fall
   ipa ˦˨
   stress
-  Tone(50, 10, envelope/p_fall, NULL)
+  Tone(50, 1, envelope/p_fall, NULL)
 endphoneme
 
-phoneme 55   //  tone: high level
+phoneme 5   //  tone: high level
   ipa ˦
   stress
-  Tone(55, 50, envelope/p_level, NULL)
+  Tone(60, 60, envelope/p_level, NULL)
 endphoneme
 
 // Short vowels
@@ -144,22 +144,31 @@ phoneme u:
   FMT(vowel/uu_bck)
 endphoneme
 
-phoneme y:
-  vwl starttype #@ endtype #@
-  length 380
-  FMT(vowel/u#_7)
-endphoneme
+//phoneme y:
+//  vwl starttype #@ endtype #@
+//  ipa ɯ
+//  length 380
+//  FMT(vowel/u#_7)
+//endphoneme
 
 // Diphtongs
+
+phoneme : //  lengthen previous vowel by "length"
+  virtual
+  length 100
+endphoneme
 
 phoneme ai
   import_phoneme zh/ai
 endphoneme
 
+phoneme ao
+  import_phoneme zhy/au
+endphoneme
+
 phoneme Au
   import_phoneme zh/Au
 endphoneme
-
 
 phoneme eo
   import_phoneme ro/eo
@@ -171,6 +180,10 @@ endphoneme
 
 phoneme ei
   import_phoneme en-us/eI
+endphoneme
+
+phoneme ie
+  import_phoneme fi/ie 
 endphoneme
 
 phoneme iao
@@ -193,10 +206,21 @@ phoneme ua
   import_phoneme zh/uA
 endphoneme
 
+phoneme oa
+  import_phoneme ro/Oa
+endphoneme
+
+phoneme ea
+  import_phoneme ro/ea
+endphoneme
+
 phoneme uo
   import_phoneme zh/uo
 endphoneme
 
+phoneme oi
+  import_phoneme shn/oi
+endphoneme
 
 phoneme m-
   vwl starttype #@ endtype #@
@@ -205,7 +229,7 @@ phoneme m-
   length 170
 
   IF thisPh(isWordStart) THEN
-    length 280
+    length 380
   ENDIF
   IF KlattSynth THEN
     FMT(klatt/m-syl)
@@ -217,10 +241,10 @@ phoneme n-
   vwl starttype #@ endtype #@
   ipa nU+0329
   lengthmod 4
-  length 170
+  length 240
 
   IF thisPh(isWordStart) THEN
-    length 190
+    length 380
   ENDIF
   IF KlattSynth THEN
     FMT(klatt/n-syl)
@@ -235,7 +259,7 @@ phoneme N-
   length 170
 
   IF thisPh(isWordStart) THEN
-    length 280
+    length 380
   ENDIF
 
   FMT(nn/nn-syl)

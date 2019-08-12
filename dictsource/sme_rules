@@ -9,10 +9,9 @@
 //ˋ 4
 
 	ă ǎ
-	u̇ U
-	y̌ Y
+	u̇ ü
 	nng ngng
-
+	u˙  ü
 	ā̀ ǎ
 	ā́ â
 	ḕ ě
@@ -24,10 +23,18 @@
 	ū́ û
 	ū̀ ǔ
 	ȳ́ ŷ
-	ȳ̀ Y
+	ȳ̀ ÿ
 	ÿ ẏ
+	y̌ ÿ
+	yˇ ÿ
+	y<030c> ÿ
+
+	awiy̌a
 
 	// Consonanats
+
+// Approximants
+.L01 m n ny ng w r l
 
 //ɑ a
 //ɡ g 
@@ -37,111 +44,150 @@
 
 //tone number
 //.group
-//       1	55
-//       2	35
+//       1	5
+//       2	15
 //       3	214
 //       4	51
-//       5	11
+//       5	1
+
 
 .group a
-	a a33
-	@) a (@ @
-	ai ai33
-	ao ao33
-	aá 'a:35
+	a a3
+	a (_ @
+	@) a (C@ @
+	ai ai3
+	ao ao3
+	aá 'a:15
+	au Au3
 .group ā
-	ā a:33
-	āi ai:33
+	ā a:3
+	āi ai:3
+	āu Au:3
+	āo au:3
 .group á
-	á a55
-	ái ai35
-	áo Au35
+	á a5
+	ái ai5
+	áo ao5
+	áu Au5
 .group â
-	â a:35
+	â a:5
+	âi ai:5
+	âo ao:5
+	âu Au:5
 .group ǎ
-	ǎ A:51
+	ǎ A:1
+	ǎo ao:1
+	ǎu Au:1
 .group à
-	à a11
+	à a1
+	ào ao1
+	àu Au1
 
 .group e
-	e e33
-	@) e (@ @
-
+	e E3
+	@) e (C@ @
+	e (_ @
+	ei ei3
 .group ē
-	ē e:33
+	ē e:3
 .group é
-	é e55
+	é e5
 .group ê
-	ê e:35
+	ê e:15
 .group ě
 	ě E:51
 .group è
-	è E11
+	è E1
 	èo eo51
 
 .group i
-	i i33
-	iao	iao33
+	i i3
+ A) i (_ j
+ @) i (_ I
+ @) i (@ I
+	iao	iao3
 	iào	iao51
-	iáo iao35
+	iáo iao15
 	i (A ;
+	ié ie15
+	ie ie
 
 .group ī
-	ī i:33
+	ī i:3
+	īe ie:
 .group í
-	í i55
+	í i5
+	íe ie15
 .group î
-	î i:35
+	î i:5
+	îe	ie:51
 .group ǐ
-	ǐ i:51
+	ǐ i:1
+	ǐe	ie:15
 .group ì
-	ì i11
+	ì i1
+	ìe ie1
+	ìé ie15
 
 .group o
-	o o33
+	o o3
+	@) o (_ O
+	oí o:15j
+	oì O:51j
 .group ō
-	ō o:33
+	ō o:3
 .group ó
-	ó o55
+	ó o5
 .group ô
-	ô o:35
+	ô o:5
+	ôi o:15j
 .group ǒ
-	ǒ o:51
+	ǒ O:1
+	ǒi O:51j
 .group ò
-	ò o11
+	ò O1
+	òi O:51j
 
 .group u
-	u u33
+	u u3
+	ua ua3
+	ui	ui
+	@) u (_ U
+	uo uo3
 .group ū
-	ū u:33
+	ū u:3
 .group ú
-	ú u55
+	ú u5
+	úa ua15
+	úo uo15
 .group û
-	û u:35
+	û u:5
 .group ǔ
-	ǔ u:51
+	ǔ u:1
 .group ù
-	ù u11
+	ù u1
+	ùa ua51
+	ùo uo51
 
 .group ẏ
-	ẏ y33
+	ẏ y3
 .group ȳ
-	ȳ y:33
+	ȳ y:3
 .group ý
-	ý y55
+	ý y5
 .group ŷ
-	ŷ y:35
-.group Y
-	Y y:51
+	ŷ y:15
+.group ÿ
+	ÿ y:51
 .group ỳ
-	ỳ y11
+	ỳ y1
 
 .group ə
 	ə @
 .group ı
 	ı I
-.group U
-	U U
+.group ü
+	ü U
 
 .group sy
  	sy C
@@ -152,6 +198,8 @@
 .group m
 	m m
 	_) mm (C m-
+	mm m:
+	_) my m:j:
 
 .group n
 	n n
@@ -160,7 +208,8 @@
 
 .group ng
 	ng N
-	ngng NN
+	ngng N:
+	_) ngng (C N-
 
 .group ny
 	ny n^
@@ -169,6 +218,7 @@
 	r r"
 	_) rr (C r"-
 	_) rr r":
+	_) ry r:j:
 
 .group l
 	l l#
@@ -178,6 +228,7 @@
 
 .group y
 	y j
+	C) y ;
 
 .group f
 	f P
