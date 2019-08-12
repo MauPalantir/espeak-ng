@@ -20,22 +20,21 @@ u˙  ü
 ȳ́ ŷ
 ȳ̀ ÿ
 ÿ ẏ
+ÿ ẏ
 y̌ ÿ
 yˇ ÿ
 y<030c> ÿ
-t th
-d dh
-q qh
-k qh
 ch qh 
 ph f
 p f
 v w
+b w
 
 	
 // Approximants
 .L01 m n ny ng w r l
 .L02 kh qh gh
+.L03 a e i o u ə ı ü ẏ
 
 //ɑ a
 //ɡ g 
@@ -58,6 +57,9 @@ v w
 	@) a (C@ @
 	@) a (CC@ a3
 	ae a3@
+	aē @e:3
+	aê @e:15
+	aê @E:51
 	ai ai3
 	ao ao3
 	aá 'a:15
@@ -95,20 +97,27 @@ v w
 
 .group e
 	e E3
+	ea e3@
 	@) e (C@ @
 	@) e (CC@ E3
 	@) e (_ @
 	ei ei3
 .group ē
 	ē e:3
+	ēa e:3@
+	ēo eo:3
 .group é
 	é e5
+	éa e5@
 .group ê
-	ê e:15
+	ê e:5
+	êa e:15@
 .group ě
-	ě E:51
+	ě E:1
+	ěa e:51@
 .group è
 	è E1
+	èa e1@
 	èo eo51
 
 .group i
@@ -169,19 +178,26 @@ v w
 .group u
 	u u3
 	ua ua3
+	u (AA w
 	ui	ui
 	@) u (_ U
 	uo uo3
 .group ū
 	ū u:3
+	ūa u:3a3
+	ūo u:3o3
 .group ú
 	ú u5
 	úa ua15
 	úo uo15
 .group û
 	û u:5
+	ûa ua:15
+	ûo uo15
 .group ǔ
 	ǔ u:1
+	ǔa ua:51
+	ǔo uo:51
 .group ù
 	ù u1
 	ùa ua51
@@ -195,9 +211,9 @@ v w
 .group ý
 	ý y5
 .group ŷ
-	ŷ y:15
+	ŷ y:5
 .group ÿ
-	ÿ y:51
+	ÿ y:1
 .group ỳ
 	ỳ y1
 
@@ -261,11 +277,21 @@ v w
 	_) y (C y
 	C) y (_ =y
 
+
+.group ph
+	ph P
+
 .group f
 	f P
 
+.group t
+	t T
+
 .group th
 	th T
+
+.group d
+	d	D
 
 .group dh
 	dh	D
