@@ -162,6 +162,7 @@ b w
 	iào	iao51
 	iáo iao15
 	i (A ;
+	A) i (A j 
 	ié ie15
 	ie ie
 
@@ -202,7 +203,7 @@ b w
 	ou ou3
 .group ō
 	ō o:3
-	ōa O:3ə
+	ōa O:3@
 	ōi oi:3
 	ōu ou:3
 .group ó
@@ -215,12 +216,12 @@ b w
 	óu ou:5
 .group ô
 	ô o:5
-	ôa O:5ə
+	ôa O:5@
 	ôi oi:15
 	ôu ou:15
 .group ǒ
 	ǒ O:1
-	ôa O:51ə
+	ôa O:51@
 	ǒi O:51j
 	ǒu ou:51
 .group ò
@@ -228,7 +229,7 @@ b w
 	CC) ò %O1
 	CCJC) ò %O1
 	L07JC) ò %O1
-	òa O1ə
+	òa O1@
 	òi O:51j
 	òu ou51
 
