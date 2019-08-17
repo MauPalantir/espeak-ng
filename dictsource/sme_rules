@@ -196,25 +196,31 @@ b w
 	L07JC) o %o3
 
 	@) o (_ O
-	oí oi:15
-	oì O:51j
+	oa o@
+	oí oi15
+	oì O51j
 	ou ou3
 .group ō
 	ō o:3
+	ōa O:3ə
+	ōi oi:3
 	ōu ou:3
 .group ó
 	ó o5
 	CC) ó %o5
 	CCJC) ó %o5
 	L07JC) ó %o5
+	óa o5@
 	ói oi5
 	óu ou:5
 .group ô
 	ô o:5
+	ôa O:5ə
 	ôi oi:15
 	ôu ou:15
 .group ǒ
 	ǒ O:1
+	ôa O:51ə
 	ǒi O:51j
 	ǒu ou:51
 .group ò
@@ -222,6 +228,7 @@ b w
 	CC) ò %O1
 	CCJC) ò %O1
 	L07JC) ò %O1
+	òa O1ə
 	òi O:51j
 	òu ou51
 
@@ -231,8 +238,9 @@ b w
 	CCJC) u %u3
 	L07JC) u %u3
 	ua ua3
-	u (AA w
 	ui	ui
+	u (AA w
+	u (L07 w
 	@) u (_ U
 	uo uo3
 .group ū
