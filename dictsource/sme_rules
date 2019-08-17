@@ -22,8 +22,6 @@ u˙  ü
 ÿ ẏ
 ÿ ẏ
 y̌ ÿ
-yˇ ÿ
-y<030c> ÿ
 ch qh 
 ph f
 p f
@@ -35,6 +33,7 @@ b w
 .L01 m n ny ng w r l
 .L02 kh qh gh
 .L03 a e i o u ə ı ü ẏ
+.L04 ə ı ü ẏ
 
 //ɑ a
 //ɡ g 
@@ -50,11 +49,13 @@ b w
 //       4	51
 //       5	1
 
-
 .group a
 	a a3
-	@) a (_ @
 	@) a (C@ @
+	@C) a (_ @
+	@y) a (_ @
+	L04JC) a (_ a3
+	@) a (CL03_ a3
 	@) a (CC@ a3
 	ae a3@
 	aē @e:3
@@ -98,9 +99,12 @@ b w
 .group e
 	e E3
 	ea e3@
-	@) e (C@ @
+	L04JC) e (_ E3
+	@) e (CL03_ E3
 	@) e (CC@ E3
-	@) e (_ @
+	@) e (C@ @
+	@C) e (_ @
+	@y) e (_ @
 	ei ei3
 .group ē
 	ē e:3
@@ -236,6 +240,9 @@ b w
 .group zy
 	zy J^
 
+.group z
+	z J^
+
 .group m
 	m m
 	_) mm (C m-
@@ -277,6 +284,8 @@ b w
 	_) y (C y
 	C) y (_ =y
 
+.group j
+	j J^
 
 .group ph
 	ph P
@@ -298,6 +307,9 @@ b w
 
 .group qh
 	qh X
+
+.group x
+	x X
 
 .group gh
 	gh Q
