@@ -51,173 +51,189 @@ b w
 
 .group a
 	a a3
-	@) a (C@ @
 	@C) a (_ @
 	@y) a (_ @
 	L04JC) a (_ a3
 	@) a (CL03_ a3
-	@) a (CC@ a3
-	ae a3@
-	aē @e:3
-	aê @e:15
-	aê @E:51
-	ai ai3
-	ao ao3
+	@) a (CC@ 'a3
+	@) a (C@ @
+	@) a (CL04C a3
+	ae 'a3@
+	aē '@e:3
+	aê '@e:15
+	aê '@E:51
+	ai 'ai3
+	ao 'ao3
 	aá 'a:15
-	au Au3
+	au 'Au3
 .group ā
-	ā a:3
-	āe a:3@		
-	āi ai:3
-	āu Au:3
-	āo au:3
+	ā 'a:3
+	āe 'a:3@		
+	āi 'ai:3
+	āu 'Au:3
+	āo 'au:3
 .group á
 	á a5
-	áe a5@
-	ái ai5
-	áo ao5
-	áu Au5
+	á (CC 'a5
+	áe 'a5@
+	ái 'ai5
+	áo 'ao5
+	áu 'Au5
 .group â
-	â a:5
-	âe a:15@
-	âi ai:15
-	âo ao:15
-	âu Au:15
+	â 'a:5
+	âe 'a:15@
+	âi 'ai:15
+	âo 'ao:15
+	âu 'Au:15
 .group ǎ
-	ǎ A:1
-	ǎe a:51@
-	ǎi ai:51
-	ǎo ao:51
-	ǎu Au:51
+	ǎ 'A:1
+	ǎe 'a:51@
+	ǎi 'ai:51
+	ǎo 'ao:51
+	ǎu 'Au:51
 .group à
 	à a1
-	àe a1@
-	ài ai1
-	ào ao1
-	àu Au1
+	à (CC 'a1
+	àe 'a1@
+	ài 'ai1
+	ào 'ao1
+	àu 'Au1
 
 .group e
 	e E3
-	ea e3@
+	e (CC 'E3
+	ea 'e3@
 	L04JC) e (_ E3
 	@) e (CL03_ E3
-	@) e (CC@ E3
+	@) e (CC@ 'E3
 	@) e (C@ @
 	@C) e (_ @
 	@y) e (_ @
-	ei ei3
+	@) e (CL04C E3
+	ei 'ei3
 .group ē
-	ē e:3
-	ēa e:3@
-	ēo eo:3
+	ē 'e:3
+	ēa 'e:3@
+	ēo 'eo:3
 .group é
 	é e5
+	é (CC 'e5
 	éa e5@
 .group ê
-	ê e:5
-	êa e:15@
+	ê 'e:5
+	êa 'e:15@
 .group ě
-	ě E:1
-	ěa e:51@
+	ě 'E:1
+	ěa 'e:51@
 .group è
 	è E1
-	èa e1@
-	èo eo51
+	è (CC 'E1
+	èa 'e1@
+	èo 'eo51
 
 .group i
 	i i3
+	i (CC 'i3 
  A) i (_ j
  @) i (_ I
  @) i (@ I
-	iao	iao3
-	iào	iao51
-	iáo iao15
+	iao	'iao3
+	iào	'iao51
+	iáo 'iao15
 	i (A ;
 	ié ie15
 	ie ie
 
 .group ī
-	ī i:3
-	īe ie:
+	ī 'i:3
+	īe 'ie:
 .group í
-	í i5
-	íe ie15
+	í 'i5
+	íe 'ie15
 .group î
-	î i:5
-	îe	ie:51
+	î 'i:5
+	îe	'ie:51
 .group ǐ
-	ǐ i:1
-	ǐe	ie:15
+	ǐ 'i:1
+	ǐe	'ie:15
 .group ì
-	ì i1
-	ìe ie1
-	ìé ie15
+	ì 'i1
+	ìe 'ie1
+	ìé 'ie15
 
 .group o
 	o o3
+	o (CC 'o3
 	@) o (_ O
-	oí oi:15
-	oì O:51j
-	ou ou3
+	oí 'oi:15
+	oì 'O:51j
+	ou 'ou3
 .group ō
-	ō o:3
-	ōu ou:3
+	ō 'o:3
+	ōu 'ou:3
 .group ó
 	ó o5
+	ó (CC 'o5
 	ói oi5
 	óu ou:5
 .group ô
-	ô o:5
-	ôi oi:15
-	ôu ou:15
+	ô 'o:5
+	ôi 'oi:15
+	ôu 'ou:15
 .group ǒ
-	ǒ O:1
-	ǒi O:51j
-	ǒu ou:51
+	ǒ 'O:1
+	ǒi 'O:51j
+	ǒu 'ou:51
 .group ò
 	ò O1
-	òi O:51j
-	òu ou51
+	ò (CC 'O1
+	òi 'O:51j
+	òu 'ou51
 
 .group u
 	u u3
-	ua ua3
+	u (CC 'u3
+	ua 'ua3
 	u (AA w
-	ui	ui
+	ui	'ui
 	@) u (_ U
-	uo uo3
+	uo 'uo3
 .group ū
-	ū u:3
-	ūa u:3a3
-	ūo u:3o3
+	ū 'u:3
+	ūa 'u:3a3
+	ūo 'u:3o3
 .group ú
 	ú u5
-	úa ua15
-	úo uo15
+	ú (CC 'u5
+	úa 'ua15
+	úo 'uo15
 .group û
-	û u:5
-	ûa ua:15
-	ûo uo15
+	û 'u:5
+	ûa 'ua:15
+	ûo 'uo15
 .group ǔ
-	ǔ u:1
-	ǔa ua:51
-	ǔo uo:51
+	ǔ 'u:1
+	ǔa 'ua:51
+	ǔo 'uo:51
 .group ù
 	ù u1
-	ùa ua51
-	ùo uo51
+	ù (CC 'u1
+	ùa 'ua51
+	ùo 'uo51
 
 .group ẏ
 	ẏ y3
+	ẏ (CC 'y3
 	ẏ (_ =y
 .group ȳ
-	ȳ y:3
+	ȳ 'y:3
 .group ý
 	ý y5
 .group ŷ
-	ŷ y:5
+	ŷ 'y:5
+// Long low tone y, orth. y̌
 .group ÿ
-	ÿ y:1
+	ÿ 'y:1
 .group ỳ
 	ỳ y1
 
