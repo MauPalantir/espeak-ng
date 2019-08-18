@@ -5,7 +5,7 @@ dictionary sme
 stressRule 3 0 0 0
 stressLength 200 0 300 200 0 0 450 200 
 
-tunes   s_ml  c1  q1  e1
+tunes   s_ml  c1  q2  e1
 
 status testing
 

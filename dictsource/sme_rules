@@ -90,7 +90,8 @@ b w
 
 .group n
 	n n
-	_) nn (C n-
+	_) nn (CP2v n-
+	_) nn (AP1v nn
 	nn	n:
 	nñ N:
 	nñh N:Q
@@ -119,6 +120,7 @@ b w
 .group l
 	l l#
 	l (C l
+	_) l (C l-:
 	ly l;
 
 .group w
@@ -146,6 +148,7 @@ b w
 
 .group q
 	q X
+	qî (_S2v %Xi:5
 
 .group x
 	x X
@@ -177,6 +180,7 @@ b w
 	@) a (CL03_ a3
 	@) a (CL04C a3
 	L07JC) a (CL03_ a3
+	L07_C) a (_ a3
 
 	ae a3@
 	aē @e:3
@@ -236,6 +240,7 @@ b w
 	@) e (CC@ E3
 	@) e (CL04C E3
 	L07JC) e (CL03_ E3
+	L07_C) e (_ E3
 
 	@) e (C@ @
 	L07JC) e (C@ @
@@ -308,6 +313,8 @@ L07JC) i (_ I
 .group î
 	î i:5
 	îe	ie:51
+	@C) î (_S1 %i:5 // enclitic p1
+	A) î (_S1 %i:5 // enclitic p1
 .group ǐ
 	ǐ i:1
 	ǐe	ie:15
@@ -335,6 +342,8 @@ L07JC) i (_ I
 	ōa O:3@
 	ōi oi:3
 	ōu ou:3
+	L07C) ō (_S1 %o:3 // enclitic p3
+	A) ō (_S1 %o:3 // enclitic p3
 .group ó
 	ó o5
 	ACC) ó (K %o5
@@ -430,5 +439,6 @@ L07JC) i (_ I
 	ə @
 .group ı
 	ı I
+
 .group ü
 	ü U
