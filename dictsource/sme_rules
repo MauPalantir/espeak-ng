@@ -83,6 +83,7 @@ b w
 	_) nn (C n-
 	nn	n:
 	nng N:
+	nngh N:Q
 	_) nng (K N-
 
 .group ng
@@ -160,6 +161,7 @@ b w
 	// Reduction
 	@C) a (_ @
 	@y) a (_ @
+	L07JC) a (_ @
 	@) a (C@ @
 	L07JC) a (C@ @
 
@@ -167,6 +169,7 @@ b w
 	L04JC) a (_ a3
 	@) a (CL03_ a3
 	@) a (CL04C a3
+	L07JC) a (CL03_ a3
 
 	ae a3@
 	aē @e:3
@@ -181,7 +184,7 @@ b w
 	āe a:3@		
 	āi ai:3
 	āu Au:3
-	āo au:3
+	āo ao:3
 .group á
 	á a5
 	ACC) á (K %a5
@@ -215,17 +218,24 @@ b w
 
 .group e
 	e E3
+	// Stress loss
 	ACC) e (K %E3
 	ACCJC) e (K %E3
 	L07JC) e (K %E3
+
+	// Prevent reduction
 	L04JC) e (_ E3
 	@) e (CL03_ E3
 	@) e (CC@ E3
+	@) e (CL04C E3
+	L07JC) e (CL03_ E3
+
 	@) e (C@ @
 	L07JC) e (C@ @
+	L07JC) e (_ @
 	@C) e (_ @
 	@y) e (_ @
-	@) e (CL04C E3
+	
 	ea e3@
 	ei ei3
 	eo eo3
@@ -307,7 +317,7 @@ b w
 	ACCJC) o (K %o3
 	L07JC) o (K %o3
 	@) o (_ (K %O
-	oa o@
+	oa o@3
 	oí oi15
 	oì O51j
 	ou ou3
@@ -352,7 +362,7 @@ b w
 	ui	ui
 	u (AA w
 	u (L07 w
-	ui (A ujg
+	ui (A ui
 	@) u (_ U
 	uo uo3
 .group ū

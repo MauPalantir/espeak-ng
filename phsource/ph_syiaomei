@@ -206,6 +206,10 @@ phoneme ua
   import_phoneme zh/uA
 endphoneme
 
+phoneme ui
+  import_phoneme zhy/ui
+endphoneme
+
 phoneme oa
   import_phoneme ro/Oa
 endphoneme
