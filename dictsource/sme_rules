@@ -94,12 +94,15 @@ b w
 	nn	n:
 	nñ N:
 	nñh N:Q
+	_) nñh N-Q
+	_) nñg N-Q
 
 .group ñ
 	ñ N
 	ññ N:
 	_) ññ (K N-
 	ñh NQ
+	_) ñg N-Q
 
 .group ń
 	ń n^
