@@ -5,7 +5,6 @@
 .replace
 ă ǎ
 u̇ ü
-nng ngng
 u˙  ü
 à à
 á á
@@ -42,6 +41,7 @@ ÿ ẏ
 y̌ ÿ
 ch qh 
 ph f
+dh d
 p f
 v w
 b w
@@ -56,274 +56,7 @@ b w
 .L06 ae ai ao au ea ei eo eu iao ie io iu ou oi oa uo ua 
 .L07 ā ē ī ō ū ȳ â î ê ô û ŷ ǎ ě ǐ ǒ ǔ ÿ ae áe àe ai ái ài ao ào áo au àu áu ea éa èa ei éi èi eo éo èo eu éu èu iao iào iáo ie íe ìe io ìo ío iu íu ìu ou óu òu oi ói òi oa óa òa uo úo ùo ua úa ùa 
 
-//ɑ a
-//ɡ g 
-//ẑ zh 
-//ĉ ch 
-//ŝ sh 
-
-//tone number
-//.group
-//       1	5
-//       2	15
-//       3	214
-//       4	51
-//       5	1
-
-.group a
-	a a3
-	@C) a (_ @
-	@y) a (_ @
-	
-	CCJC) a (CA %a3
-	L07JC) a (CA %a3
-	L04JC) a (_ a3
-	@) a (CL03_ a3
-	@) a (C@ @
-	@) a (CL04C a3
-	ae a3@
-	aē @e:3
-	aê @e:15
-	aê @E:51
-	ai ai3
-	ao ao3
-	aá a:15
-	au Au3
-.group ā
-	ā a:3
-	āe a:3@		
-	āi ai:3
-	āu Au:3
-	āo au:3
-.group á
-	á a5
-	CC) á %a5
-	CCJC) á %a5
-	L07JC) á %a5
-	áe a5@
-	ái ai5
-	áo ao5
-	áu Au5
-.group â
-	â a:5
-	âe a:15@
-	âi ai:15
-	âo ao:15
-	âu Au:15
-.group ǎ
-	ǎ A:1
-	ǎe a:51@
-	ǎi ai:51
-	ǎo ao:51
-	ǎu Au:51
-.group à
-	à a1
-	CC) à %a1
-	CCJ) à %a1
-	L07JC) à %a1
-
-	àe a1@
-	ài ai1
-	ào ao1
-	àu Au1
-
-.group e
-	e E3
-	CC) e (CA %E3
-	CCJC) e (CA %E3
-	L07JC) e (CA %E3
-	ea e3@
-	L04JC) e (_ E3
-	@) e (CL03_ E3
-	@) e (CC@ E3
-	@) e (C@ @
-	@C) e (_ @
-	@y) e (_ @
-	@) e (CL04C E3
-	ei ei3
-.group ē
-	ē e:3
-	ēa e:3@
-	ēo eo:3
-.group é
-	é e5
-	CC) é %e5
-	CCJC) é %e5
-	L07JC) é %e5
-	éa e5@
-	éo eo15
-.group ê
-	ê e:5
-	êa e:15@
-	êo eo:15
-.group ě
-	ě E:1
-	ěa e:51@
-	ěo eo:51
-.group è
-	è E1
-	CC) è (CA %E1
-	CCJC) è (CA %E1
-	L07JC) è (CA %E1
-	èa e1@
-	èo eo51
-
-.group i
-	i i3
-	CC) i %i3
-	CCJC) i %i3
-	L07JC) i %i3
- A) i (_ j
- @) i (_ I
- @) i (@ I
-	iao	iao3
-	iào	iao51
-	iáo iao15
-	i (A ;
-	A) i (A j 
-	ié ie15
-	ie ie
-
-.group ī
-	ī i:3
-	īe ie:
-.group í
-	í i5
-	CC) í %i5
-	CCJC) í %i5
-	L07JC) í %i5
-	íe ie15
-.group î
-	î i:5
-	îe	ie:51
-.group ǐ
-	ǐ i:1
-	ǐe	ie:15
-.group ì
-	ì i1
-	CC) ì %i1
-	CCJC) ì %i1
-	L07JC) ì %i1
-	ìe ie1
-	ìé ie15
-
-.group o
-	o o3
-
-	CC) o %o3
-	CCJC) o %o3
-	L07JC) o %o3
-
-	@) o (_ O
-	oa o@
-	oí oi15
-	oì O51j
-	ou ou3
-.group ō
-	ō o:3
-	ōa O:3@
-	ōi oi:3
-	ōu ou:3
-.group ó
-	ó o5
-	CC) ó %o5
-	CCJC) ó %o5
-	L07JC) ó %o5
-	óa o5@
-	ói oi5
-	óu ou:5
-.group ô
-	ô o:5
-	ôa O:5@
-	ôi oi:15
-	ôu ou:15
-.group ǒ
-	ǒ O:1
-	ǒa O:51@
-	ǒi O:51j
-	ǒu ou:51
-.group ò
-	ò O1
-	CC) ò %O1
-	CCJC) ò %O1
-	L07JC) ò %O1
-	òa O1@
-	òi O:51j
-	òu ou51
-
-.group u
-	u u3
-	CC) u %u3
-	CCJC) u %u3
-	L07JC) u %u3
-	ua ua3
-	ui	ui
-	u (AA w
-	u (L07 w
-	ui (A ujg
-	@) u (_ U
-	uo uo3
-.group ū
-	ū u:3
-	ūa u:3a3
-	ūo u:3o3
-.group ú
-	ú u5
-	CC) ú %u5
-	CCJC) ú %u5
-	L07JC) ú %u5
-	úa ua15
-	úo uo15
-.group û
-	û u:5
-	ûa ua:15
-	ûo uo15
-.group ǔ
-	ǔ u:1
-	ǔa ua:51
-	ǔo uo:51
-.group ù
-	ù u1
-	CC) ù %u1
-	CCJC) ù %u1
-	L07JC) ù %u1
-	ùa ua51
-	ùo uo51
-
-.group ẏ
-	ẏ y3
-	CC) ẏ %y3
-	CCJC) ẏ %y3
-	L07JC) ẏ %y3
-	ẏ (_ =y
-.group ȳ
-	ȳ y:3
-
-.group ý
-	ý y5
-	CC) ý %y5
-	CCJC) ý %y5
-	L07JC) ý %y5
-.group ŷ
-	ŷ y:5
-// Long low tone y, orth. y̌
-.group ÿ
-	ÿ y:1
-.group ỳ
-	ỳ y1	
-	CC) ỳ %y1
-	CCJC) ỳ %y1
-	L07JC) ỳ %y1
-
-
-
-.group ə
-	ə @
-.group ı
-	ı I
-.group ü
-	ü U
-
+// Consonants
 .group sy
  	sy C
 
@@ -349,11 +82,13 @@ b w
 	n n
 	_) nn (C n-
 	nn	n:
+	nng N:
+	_) nng (K N-
 
 .group ng
 	ng N
 	ngng N:
-	_) ngng (C N-
+	_) ngng (K N-
 
 .group ny
 	ny n^
@@ -413,3 +148,261 @@ b w
 
 .group h
 	h h
+
+.group a
+	a a3
+	@C) a (_ @
+	@y) a (_ @
+	
+	ACCJC) a (K %a3
+	ACC) a (K %a3
+	L07JC) a (K %a3
+	L04JC) a (_ a3
+	@) a (CL03_ a3
+	@) a (C@ @
+	@) a (CL04C a3
+	ae a3@
+	aē @e:3
+	aê @e:15
+	aê @E:51
+	ai ai3
+	ao ao3
+	aá a:15
+	au Au3
+.group ā
+	ā a:3
+	āe a:3@		
+	āi ai:3
+	āu Au:3
+	āo au:3
+.group á
+	á a5
+	ACC) á (K %a5
+	ACCJC) á (K %a5
+	L07JC) á (K %a5
+	áe a5@
+	ái ai5
+	áo ao5
+	áu Au5
+.group â
+	â a:5
+	âe a:15@
+	âi ai:15
+	âo ao:15
+	âu Au:15
+.group ǎ
+	ǎ A:1
+	ǎe a:51@
+	ǎi ai:51
+	ǎo ao:51
+	ǎu Au:51
+.group à
+	à a1
+	ACC) à (K %a1
+	ACCJC) à (K %a1
+	L07JC) à (K %a1
+	àe a1@
+	ài ai1
+	ào ao1
+	àu Au1
+
+.group e
+	e E3
+	ACC) e (K %E3
+	ACCJC) e (K %E3
+	L07JC) e (K %E3
+	L04JC) e (_ E3
+	@) e (CL03_ E3
+	@) e (CC@ E3
+	@) e (C@ @
+	@C) e (_ @
+	@y) e (_ @
+	@) e (CL04C E3
+	ea e3@
+	ei ei3
+.group ē
+	ē e:3
+	ēa e:3@
+	ēao ea:3O
+	ēo eo:3
+.group é
+	é e5
+	éa e5@
+	éi ei15
+	éo eo15
+	ACC) é (K %e5
+	ACCJC) é (K%e5
+	L07JC) é (K %e5
+	
+.group ê
+	ê e:5
+	êa e:15@
+	êao e:15ao
+	êo eo:15
+.group ě
+	ě E:1
+	ěa e:51@
+	ěao e:51ao
+	ěo eo:51
+.group è
+	è E1
+	ACC) è (K %E1
+	ACCJC) è (K %E1
+	L07JC) è (K %E1
+	èa e1@
+	èi ei51
+	èo eo51
+
+.group i
+	i i3
+	ACC) i (K %i3
+	ACCJC) i (K %i3
+	L07JC) i (K %i3
+ A) i (_ j
+ @) i (_ I
+ @) i (@ I
+	iao	iao3
+	iào	iao51
+	iáo iao15
+	i (A ;
+	A) i (A j 
+	ié ie15
+	ie ie
+
+.group ī
+	ī i:3
+	īe ie:
+.group í
+	í i5
+	ACC) í (K %i5
+	ACCJC) í (K %i5
+	L07JC) í (K %i5
+	íe ie15
+.group î
+	î i:5
+	îe	ie:51
+.group ǐ
+	ǐ i:1
+	ǐe	ie:15
+.group ì
+	ì i1
+	ACC) ì (K %i1
+	ACCJC) ì (K %i1
+	L07JC) ì (K %i1
+	ìe ie1
+	ìé ie15
+
+.group o
+	o o3
+	ACC) o (K %o3
+	ACCJC) o (K %o3
+	L07JC) o (K %o3
+	@) o (_ (K %O
+	oa o@
+	oí oi15
+	oì O51j
+	ou ou3
+.group ō
+	ō o:3
+	ōa O:3@
+	ōi oi:3
+	ōu ou:3
+.group ó
+	ó o5
+	ACC) ó (K %o5
+	ACCJC) ó (K %o5
+	L07JC) ó (K %o5
+	óa o5@
+	ói oi5
+	óu ou:5
+.group ô
+	ô o:5
+	ôa O:5@
+	ôi oi:15
+	ôu ou:15
+.group ǒ
+	ǒ O:1
+	ǒa O:51@
+	ǒi O:51j
+	ǒu ou:51
+.group ò
+	ò O1
+	ACC) ò (K %O1
+	ACCJC) ò (K %O1
+	L07JC) ò (K %O1
+	òa O1@
+	òi O:51j
+	òu ou51
+
+.group u
+	u u3
+	ACC) u (K %u3
+	ACCJC) u (K %u3
+	L07JC) u (K %u3
+	ua ua3
+	ui	ui
+	u (AA w
+	u (L07 w
+	ui (A ujg
+	@) u (_ U
+	uo uo3
+.group ū
+	ū u:3
+	ūa u:3a3
+	ūo u:3o3
+.group ú
+	ú u5
+	ACC) ú (K %u5
+	ACCJC) ú (K %u5
+	L07JC) ú (K %u5
+	úa ua15
+	úo uo15
+.group û
+	û u:5
+	ûa ua:15
+	ûo uo15
+.group ǔ
+	ǔ u:1
+	ǔa ua:51
+	ǔo uo:51
+.group ù
+	ù u1
+	ACC) ù (K %u1
+	ACCJC) ù (K %u1
+	L07JC) ù (K %u1
+	ùa ua51
+	ùo uo51
+
+.group ẏ
+	ẏ y3
+	ACC) ẏ (K %y3
+	ACCJC) ẏ (K %y3
+	L07JC) ẏ (K %y3
+	ẏ (_ =y
+.group ȳ
+	ȳ y:3
+
+.group ý
+	ý y5
+	ACC) ý (K %y5
+	ACCJC) ý (K %y5
+	L07JC) ý (K %y5
+.group ŷ
+	ŷ y:5
+// Long low tone y, orth. y̌
+.group ÿ
+	ÿ y:1
+.group ỳ
+	ỳ y1	
+	ACC) ỳ (K %y1
+	ACCJC) ỳ (K %y1
+	L07JC) ỳ (K %y1
+
+
+
+.group ə
+	ə @
+.group ı
+	ı I
+.group ü
+	ü U
