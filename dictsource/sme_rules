@@ -4,6 +4,11 @@
 // Othrographic variants
 .replace
 ă ǎ
+ĭ ǐ
+ĕ ě
+ŏ ǒ
+ŭ ǔ
+y̆ ÿ
 u̇ ü
 u˙  ü
 à à
@@ -42,6 +47,7 @@ y̌ ÿ
 ch qh 
 ph f
 dh d
+ny ń
 p f
 v w
 b w
@@ -91,8 +97,8 @@ b w
 	ngng N:
 	_) ngng (K N-
 
-.group ny
-	ny n^
+.group ń
+	ń n^
 
 .group r
 	r r"
@@ -250,7 +256,7 @@ b w
 	éi ei15
 	éo eo15
 	ACC) é (K %e5
-	ACCJC) é (K%e5
+	ACCJC) é (K %e5
 	L07JC) é (K %e5
 	
 .group ê
@@ -416,8 +422,6 @@ b w
 	ACC) ỳ (K %y1
 	ACCJC) ỳ (K %y1
 	L07JC) ỳ (K %y1
-
-
 
 .group ə
 	ə @
