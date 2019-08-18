@@ -44,18 +44,31 @@ ȳ ȳ
 ÿ ẏ
 ÿ ẏ
 y̌ ÿ
-ch qh 
+kh q
+k q
+ch q
 ph f
-dh d
+p f
+dh ð
+ng ñ
+gh g
+th þ
+qh q
 ny ń
+zy ź
+zh ź
+z ź
+sy ś
+sh ś
+s ś
 p f
 v w
 b w
 
 	
 // Approximants
-.L01 m n ny ng w r l
-.L02 kh qh gh
+.L01 m n ń ñ w r l
+.L02 q g
 .L03 a e i o u ə ı ü ẏ
 .L04 ə ı ü ẏ
 .L05 ā ē ī ō ū ȳ â î ê ô û ŷ ǎ ě ǐ ǒ ǔ ÿ 
@@ -63,20 +76,11 @@ b w
 .L07 ā ē ī ō ū ȳ â î ê ô û ŷ ǎ ě ǐ ǒ ǔ ÿ ae áe àe ai ái ài ao ào áo au àu áu ea éa èa ei éi èi eo éo èo eu éu èu iao iào iáo ie íe ìe io ìo ío iu íu ìu ou óu òu oi ói òi oa óa òa uo úo ùo ua úa ùa 
 
 // Consonants
-.group sy
- 	sy C
+.group ś
+ 	ś C
 
-.group s
-	s C
-
-.group sh
-	sh C
-
-.group zy
-	zy J^
-
-.group z
-	z J^
+.group ź
+	ź J^
 
 .group m
 	m m
@@ -88,14 +92,14 @@ b w
 	n n
 	_) nn (C n-
 	nn	n:
-	nng N:
-	nngh N:Q
-	_) nng (K N-
+	nñ N:
+	nñh N:Q
 
-.group ng
-	ng N
-	ngng N:
-	_) ngng (K N-
+.group ñ
+	ñ N
+	ññ N:
+	_) ññ (K N-
+	ñh NQ
 
 .group ń
 	ń n^
@@ -125,33 +129,25 @@ b w
 .group j
 	j J^
 
-.group ph
-	ph P
-
 .group f
 	f P
 
-.group t
-	t T
+.group þ
+	þ T
+	_) þe (@P2 T@ 
 
-.group th
-	th T
-	_) the (@P2 T@ 
+.group ð
+	ð	D
 
-.group d
-	d	D
-
-.group dh
-	dh	D
-
-.group qh
-	qh X
+.group q
+	q X
 
 .group x
 	x X
 
-.group gh
-	gh Q
+.group g
+	g Q
+	ñ) g 
 
 .group h
 	h h
