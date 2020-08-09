@@ -1,29 +1,29 @@
 phoneme 1   //  tone: low level
-  ipa ˨
+//  ipa ˨
   stress
   Tone(1, 1, envelope/p_level, NULL)
 endphoneme
 
 phoneme 3   //  tone: mid level
-  ipa ˧
+//  ipa ˧
   stress
   Tone(30, 30, envelope/p_fall, NULL)
 endphoneme
 
 phoneme 15   //  tone: low rise
-  ipa ˧˦
+//  ipa ˧˦
   stress
   Tone(10, 60, envelope/p_rise, NULL)
 endphoneme
 
 phoneme 51   //  tone: high fall
-  ipa ˦˨
+//  ipa ˦˨
   stress
   Tone(50, 1, envelope/p_fall, NULL)
 endphoneme
 
 phoneme 5   //  tone: high level
-  ipa ˦
+//  ipa ˦
   stress
   Tone(60, 60, envelope/p_level, NULL)
 endphoneme
@@ -77,7 +77,7 @@ phoneme @   //  Schwa
   vwl starttype #@ endtype #@
   unstressed
   length 40
-  FMT(vowel/@_4)
+  FMT(vowel/@_4) 
 endphoneme
 
 phoneme I
@@ -95,9 +95,8 @@ phoneme U
 endphoneme
 
 phoneme y
-  vwl starttype #@ endtype #@
-  ipa ɯ
-  length 180
+  vwl starttype #u endtype #u
+  length 130
   FMT(vowel/u#_7)
 endphoneme
 
@@ -144,12 +143,11 @@ phoneme u:
   FMT(vowel/uu_bck)
 endphoneme
 
-//phoneme y:
-//  vwl starttype #@ endtype #@
-//  ipa ɯ
-//  length 380
-//  FMT(vowel/u#_7)
-//endphoneme
+phoneme y:
+  vwl starttype #u endtype #u
+  length 380
+  FMT(vowel/u#_7)
+endphoneme
 
 // Diphtongs
 

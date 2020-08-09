@@ -8,7 +8,7 @@
 ĕ ě
 ŏ ǒ
 ŭ ǔ
-y̆ ÿ
+y̆ ẙ
 u̇ ü
 u˙  ü
 à à
@@ -43,7 +43,7 @@ ȳ ȳ
 ȳ̀ ÿ
 ÿ ẏ
 ÿ ẏ
-y̌ ÿ
+y̌ ẙ
 kh q
 k q
 ch q
@@ -71,9 +71,9 @@ b w
 .L02 q g
 .L03 a e i o u ə ı ü ẏ
 .L04 ə ı ü ẏ
-.L05 ā ē ī ō ū ȳ â î ê ô û ŷ ǎ ě ǐ ǒ ǔ ÿ 
+.L05 ā ē ī ō ū ȳ â î ê ô û ŷ ǎ ě ǐ ǒ ǔ ẙ 
 .L06 ae ai ao au ea ei eo eu iao ie io iu ou oi oa uo ua 
-.L07 ā ē ī ō ū ȳ â î ê ô û ŷ ǎ ě ǐ ǒ ǔ ÿ ae áe àe ai ái ài ao ào áo au àu áu ea éa èa ei éi èi eo éo èo eu éu èu iao iào iáo ie íe ìe io ìo ío iu íu ìu ou óu òu oi ói òi oa óa òa uo úo ùo ua úa ùa 
+.L07 ā ē ī ō ū ȳ â î ê ô û ŷ ǎ ě ǐ ǒ ǔ ẙ ae áe àe ai ái ài ao ào áo au àu áu ea éa èa ei éi èi eo éo èo eu éu èu iao iào iáo ie íe ìe io ìo ío iu íu ìu ou óu òu oi ói òi oa óa òa uo úo ùo ua úa ùa 
 
 // Consonants
 .group ś
@@ -184,11 +184,11 @@ b w
 
 	ae a3@
 	aē @e:3
-	aê @e:15
-	aê @E:51
+	aê @e:5
+	aê @E:1
 	ai ai3
 	ao ao3
-	aá a:15
+	aá a:5
 	au Au3
 .group ā
 	ā a:3
@@ -207,16 +207,16 @@ b w
 	áu Au5
 .group â
 	â a:5
-	âe a:15@
-	âi ai:15
-	âo ao:15
-	âu Au:15
+	âe a:5@
+	âi ai:5
+	âo ao:5
+	âu Au:5
 .group ǎ
 	ǎ A:1
-	ǎe a:51@
-	ǎi ai:51
-	ǎo ao:51
-	ǎu Au:51
+	ǎe a:1@
+	ǎi ai:1
+	ǎo ao:1
+	ǎu Au:1
 .group à
 	à a1
 	ACC) à (K %a1
@@ -259,30 +259,30 @@ b w
 .group é
 	é e5
 	éa e5@
-	éi ei15
-	éo eo15
+	éi ei5
+	éo eo5
 	ACC) é (K %e5
 	ACCJC) é (K %e5
 	L07JC) é (K %e5
 	
 .group ê
 	ê e:5
-	êa e:15@
-	êao e:15ao
-	êo eo:15
+	êa e:5@
+	êao e:5ao
+	êo eo:5
 .group ě
 	ě E:1
-	ěa e:51@
-	ěao e:51ao
-	ěo eo:51
+	ěa e:1@
+	ěao e:1ao
+	ěo eo:1
 .group è
 	è E1
 	ACC) è (K %E1
 	ACCJC) è (K %E1
 	L07JC) è (K %E1
 	èa e1@
-	èi ei51
-	èo eo51
+	èi ei1
+	èo eo1
 
 .group i
 	i i3
@@ -294,11 +294,11 @@ b w
  @) i (@ I
 L07JC) i (_ I
 	iao	iao3
-	iào	iao51
-	iáo iao15
+	iào	iao1
+	iáo iao5
 	i (A ;
 	A) i (A j 
-	ié ie15
+	ié ie5
 	ie ie
 
 .group ī
@@ -309,22 +309,22 @@ L07JC) i (_ I
 	ACC) í (K %i5
 	ACCJC) í (K %i5
 	L07JC) í (K %i5
-	íe ie15
+	íe ie5
 .group î
 	î i:5
-	îe	ie:51
+	îe	ie:1
 	@C) î (_S1 %i:5 // enclitic p1
 	A) î (_S1 %i:5 // enclitic p1
 .group ǐ
 	ǐ i:1
-	ǐe	ie:15
+	ǐe	ie:5
 .group ì
 	ì i1
 	ACC) ì (K %i1
 	ACCJC) ì (K %i1
 	L07JC) ì (K %i1
 	ìe ie1
-	ìé ie15
+	ìé ie5
 
 .group o
 	o o3
@@ -334,8 +334,8 @@ L07JC) i (_ I
 	@) o (_ (K %O
 
 	oa o@3
-	oí oi15
-	oì O51j
+	oí oi5
+	oì O1j
 	ou ou3
 .group ō
 	ō o:3
@@ -355,21 +355,21 @@ L07JC) i (_ I
 .group ô
 	ô o:5
 	ôa O:5@
-	ôi oi:15
-	ôu ou:15
+	ôi oi:5
+	ôu ou:5
 .group ǒ
 	ǒ O:1
-	ǒa O:51@
-	ǒi O:51j
-	ǒu ou:51
+	ǒa O:1@
+	ǒi O:1j
+	ǒu ou:1
 .group ò
 	ò O1
 	ACC) ò (K %O1
 	ACCJC) ò (K %O1
 	L07JC) ò (K %O1
 	òa O1@
-	òi O:51j
-	òu ou51
+	òi O:1j
+	òu ou1
 
 .group u
 	u u3
@@ -392,23 +392,24 @@ L07JC) i (_ I
 	ACC) ú (K %u5
 	ACCJC) ú (K %u5
 	L07JC) ú (K %u5
-	úa ua15
-	úo uo15
+	úa ua5
+	úo uo5
 .group û
 	û u:5
-	ûa ua:15
-	ûo uo15
+	ûa ua:5
+	ûo uo5
 .group ǔ
 	ǔ u:1
-	ǔa ua:51
-	ǔo uo:51
+	ǔa ua:1
+	ǔo uo:1
 .group ù
 	ù u1
 	ACC) ù (K %u1
 	ACCJC) ù (K %u1
 	L07JC) ù (K %u1
-	ùa ua51
-	ùo uo51
+	ùa ua1
+	ùo uo1
+ 
 
 .group ẏ
 	ẏ y3
@@ -416,6 +417,7 @@ L07JC) i (_ I
 	ACCJC) ẏ (K %y3
 	L07JC) ẏ (K %y3
 	ẏ (_ =y
+	
 .group ȳ
 	ȳ y:3
 
@@ -427,8 +429,8 @@ L07JC) i (_ I
 .group ŷ
 	ŷ y:5
 // Long low tone y, orth. y̌
-.group ÿ
-	ÿ y:1
+.group ẙ
+	ẙ y:1
 .group ỳ
 	ỳ y1	
 	ACC) ỳ (K %y1
